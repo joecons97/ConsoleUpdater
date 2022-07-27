@@ -3,18 +3,19 @@ A simple .Net Console App auto updater
 
 To begin:
 ```
-Add Reference to ConsoleUpdater
+Add reference to ConsoleUpdater
 ```
 
-Create ConsoleUpdater Object
-```
+Create ConsoleUpdater object:
+```cs
 var updater = ConsoleUpdater.Create().
                 WithDomain("http://www.yourserver.com/").
                 WithVersionFile("versiontracker.txt").
-                WithAppFile("yourpacket.zip");
+                WithAppFile("yourpackage.zip").
+                WithCustomVersion("1.0.0.0"); //Optional
 ```
 
-Version Tracker required format:
+Version-Tracker required format:
 ```
 1.0.0.0
 ```
@@ -23,7 +24,7 @@ Update as required
 The system compares the update to the version of the entry assembly's (your console app) version
 
 Run Update Check
-```
+```cs
 if (updater.CheckForUpdate(out var v))
   Console.Read();
 else
