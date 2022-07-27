@@ -11,41 +11,41 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Sharp_Dater
+namespace ConsoleUpdater
 {
-    public class SharpDater
+    public class ConsoleUpdater
     {
         public string domain;
         public string versionFilePath;
         public string appFilePath;
         public Version version;
 
-        public static SharpDater Create()
+        public static ConsoleUpdater Create()
         {
-            var sharpDater = new SharpDater();
+            var sharpDater = new ConsoleUpdater();
             sharpDater.version = Assembly.GetEntryAssembly().GetName().Version;
             return sharpDater;
         }
 
-        public SharpDater WithDomain(string domain)
+        public ConsoleUpdater WithDomain(string domain)
         {
             this.domain = domain;
             return this;
         }
 
-        public SharpDater WithVersionFile(string fullPath)
+        public ConsoleUpdater WithVersionFile(string fullPath)
         {
             this.versionFilePath = fullPath;
             return this;
         }
 
-        public SharpDater WithAppFile(string fullPath)
+        public ConsoleUpdater WithAppFile(string fullPath)
         {
             this.appFilePath = fullPath;
             return this;
         }
 
-        public SharpDater WithCustomVersion(string version)
+        public ConsoleUpdater WithCustomVersion(string version)
         {
             this.version = new Version(version);
             return this;

@@ -10,11 +10,10 @@
 
   <ItemGroup>
     <PackageReference Include="Autoupdater.NET.Official" Version="1.7.4" />
-    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1264.42" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sharp-Dater\Sharp-Dater.csproj" />
+    <ProjectReference Include="..\Sharp-Dater\ConsoleUpdater.csproj" />
   </ItemGroup>
 
 </Project>

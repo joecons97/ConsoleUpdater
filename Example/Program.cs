@@ -1,5 +1,4 @@
-﻿using Sharp_Dater;
-using System;
+﻿using System;
 using System.IO;
 using System.Reflection;
 using System.Threading;
@@ -11,7 +10,7 @@ namespace Example
         [STAThread]
         static void Main(string[] args)
         {
-            var updater = SharpDater.Create().
+            var updater = ConsoleUpdater.ConsoleUpdater.Create().
                 WithDomain(@"C:\Test\").
                 WithVersionFile("ver.txt").
                 WithAppFile("net5.0-windows.zip");

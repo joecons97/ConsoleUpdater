@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yJiHW/iScA6x1FCI7+VCL3NmPRGrd+P/Y6jtsly03WkEZccQXzh5qCd8GYFGjxshBCI+bJjYBT7U/2KfzTT1eA==",
+  "dgSpecHash": "/4f3cfna0o8ODX3wX6yJktmwgsZMC+lHT1LdUCXsT7vxAn55xvvbzmLkJARfo3F2ZqQyf2Un2q5qFIOgTMK80Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Example\\Example.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\constjos\\.nuget\\packages\\autoupdater.net.official\\1.7.4\\autoupdater.net.official.1.7.4.nupkg.sha512",
-    "C:\\Users\\constjos\\.nuget\\packages\\microsoft.web.webview2\\1.0.1264.42\\microsoft.web.webview2.1.0.1264.42.nupkg.sha512"
+    "C:\\Users\\constjos\\.nuget\\packages\\microsoft.web.webview2\\1.0.1210.39\\microsoft.web.webview2.1.0.1210.39.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharp-Dater", "Sharp-Dater\Sharp-Dater.csproj", "{0C37F58B-6796-4F38-A811-2074B02CB4F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUpdater", "Sharp-Dater\ConsoleUpdater.csproj", "{0C37F58B-6796-4F38-A811-2074B02CB4F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{F7870AAF-7094-43CD-B93B-1AEBE94718D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Example\Example.csproj", "{F7870AAF-7094-43CD-B93B-1AEBE94718D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

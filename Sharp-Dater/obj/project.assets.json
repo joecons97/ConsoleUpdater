@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\Sharp-Dater.csproj",
-      "projectName": "Sharp-Dater",
-      "projectPath": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\Sharp-Dater.csproj",
+      "projectUniqueName": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\ConsoleUpdater.csproj",
+      "projectName": "ConsoleUpdater",
+      "projectPath": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\ConsoleUpdater.csproj",
       "packagesPath": "C:\\Users\\constjos\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\obj\\",
       "projectStyle": "PackageReference",

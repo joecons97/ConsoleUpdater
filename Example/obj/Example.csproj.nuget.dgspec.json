@@ -32,8 +32,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\Sharp-Dater.csproj": {
-                "projectPath": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\Sharp-Dater.csproj"
+              "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\ConsoleUpdater.csproj": {
+                "projectPath": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\ConsoleUpdater.csproj"
               }
             }
           }
@@ -51,10 +51,6 @@
             "Autoupdater.NET.Official": {
               "target": "Package",
               "version": "[1.7.4, )"
-            },
-            "Microsoft.Web.WebView2": {
-              "target": "Package",
-              "version": "[1.0.1264.42, )"
             }
           },
           "imports": [
@@ -76,12 +72,12 @@
         }
       }
     },
-    "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\Sharp-Dater.csproj": {
+    "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\ConsoleUpdater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\Sharp-Dater.csproj",
-        "projectName": "Sharp-Dater",
-        "projectPath": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\Sharp-Dater.csproj",
+        "projectUniqueName": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\ConsoleUpdater.csproj",
+        "projectName": "ConsoleUpdater",
+        "projectPath": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\ConsoleUpdater.csproj",
         "packagesPath": "C:\\Users\\constjos\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\constjos\\source\\repos\\Sharp-Dater\\Sharp-Dater\\obj\\",
         "projectStyle": "PackageReference",

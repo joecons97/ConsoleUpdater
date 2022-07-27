@@ -69,7 +69,7 @@ namespace Sharp_Dater {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Sharp-Dater;component/progressdialogue.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ConsoleUpdater;V1.0.0.0;component/progressdialogue.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ProgressDialogue.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -10,8 +10,6 @@ C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\Exam
 C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\Example.dll
 C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\ref\Example.dll
 C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\Example.pdb
-C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\Sharp-Dater.dll
-C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\Sharp-Dater.pdb
 C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\net5.0-windows\Example.csproj.CopyComplete
 C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\net5.0-windows\Example.dll
 C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\net5.0-windows\ref\Example.dll
@@ -45,3 +43,5 @@ C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\zh\A
 C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
 C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\runtimes\win-x64\native\WebView2Loader.dll
 C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\ConsoleUpdater.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\net5.0-windows\ConsoleUpdater.pdb
