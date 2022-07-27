@@ -1,0 +1,17 @@
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\bin\Debug\net5.0-windows\Sharp-Dater.deps.json
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\bin\Debug\net5.0-windows\Sharp-Dater.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\bin\Debug\net5.0-windows\ref\Sharp-Dater.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\bin\Debug\net5.0-windows\Sharp-Dater.pdb
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater.csproj.AssemblyReference.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater.AssemblyInfoInputs.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater.AssemblyInfo.cs
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater.csproj.CoreCompileInputs.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\ref\Sharp-Dater.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater.pdb
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\ProgressDialogue.g.cs
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater_MarkupCompile.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater_MarkupCompile.lref
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\ProgressDialogue.baml
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\net5.0-windows\Sharp-Dater.g.resources

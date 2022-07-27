@@ -1,0 +1,10 @@
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\bin\Debug\netcoreapp3.1\Sharp-Dater.deps.json
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\bin\Debug\netcoreapp3.1\Sharp-Dater.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\bin\Debug\netcoreapp3.1\Sharp-Dater.pdb
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\netcoreapp3.1\Sharp-Dater.csproj.AssemblyReference.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\netcoreapp3.1\Sharp-Dater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\netcoreapp3.1\Sharp-Dater.AssemblyInfoInputs.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\netcoreapp3.1\Sharp-Dater.AssemblyInfo.cs
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\netcoreapp3.1\Sharp-Dater.csproj.CoreCompileInputs.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\netcoreapp3.1\Sharp-Dater.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Sharp-Dater\obj\Debug\netcoreapp3.1\Sharp-Dater.pdb

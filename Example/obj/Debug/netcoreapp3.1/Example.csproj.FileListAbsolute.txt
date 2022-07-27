@@ -1,0 +1,17 @@
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\netcoreapp3.1\Example.exe
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\netcoreapp3.1\Example.deps.json
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\netcoreapp3.1\Example.runtimeconfig.json
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\netcoreapp3.1\Example.runtimeconfig.dev.json
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\netcoreapp3.1\Example.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\netcoreapp3.1\Example.pdb
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\netcoreapp3.1\Sharp-Dater.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Example\bin\Debug\netcoreapp3.1\Sharp-Dater.pdb
+C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\netcoreapp3.1\Example.csproj.AssemblyReference.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\netcoreapp3.1\Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\netcoreapp3.1\Example.AssemblyInfoInputs.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\netcoreapp3.1\Example.AssemblyInfo.cs
+C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\netcoreapp3.1\Example.csproj.CoreCompileInputs.cache
+C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\netcoreapp3.1\Example.csproj.CopyComplete
+C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\netcoreapp3.1\Example.dll
+C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\netcoreapp3.1\Example.pdb
+C:\Users\constjos\source\repos\Sharp-Dater\Example\obj\Debug\netcoreapp3.1\Example.genruntimeconfig.cache
