@@ -1,4 +1,7 @@
 # ConsoleUpdater
+
+https://img.shields.io/badge/Nuget-1.0.1.0-Blue
+
 A simple .Net Console App auto updater
 
 To begin:
