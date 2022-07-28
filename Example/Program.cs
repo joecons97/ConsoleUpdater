@@ -12,9 +12,9 @@ namespace Example
         static void Main(string[] args)
         {
             var updater = ConsoleUpdater.ConsoleUpdater.Create().
-                WithDomain(@"https://sundermead.co.uk/ConsoleUpdater/").
+                WithDomain(@"https://yourserver.co.uk/ConsoleUpdater/").
                 WithVersionFile("ver.txt").
-                WithAppFile("net5.0-windows.zip").
+                WithAppFile("app.zip").
                 WithProgressBarInfo(new ProgressBarInfo() { DisplayPercent = true, DisplaySpeed = true, CompleteColor = ConsoleColor.Yellow });
 
             if (updater.CheckForUpdate(out var v))
