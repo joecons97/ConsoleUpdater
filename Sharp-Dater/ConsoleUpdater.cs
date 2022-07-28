@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
@@ -13,16 +14,38 @@ using System.Windows;
 
 namespace ConsoleUpdater
 {
+    public class ProgressBarInfo
+    {
+        public ConsoleColor IncompleteColor { get; set; } = ConsoleColor.DarkGray;
+        public ConsoleColor CompleteColor { get; set; } = ConsoleColor.Green;
+        public char IncompleteChar { get; set; } = '-';
+        public char CompleteChar { get; set; } = '-';
+        public bool DisplayPercent { get; set; } = false;
+        public bool DisplaySpeed { get; set; } = false;
+
+        public static readonly ProgressBarInfo Default = new ProgressBarInfo()
+        {
+            IncompleteChar = '-',
+            IncompleteColor = ConsoleColor.DarkGray,
+            CompleteChar = '-',
+            CompleteColor = ConsoleColor.Green,
+            DisplayPercent = false,
+            DisplaySpeed = false
+        };
+    }
+
     public class ConsoleUpdater
     {
-        public string domain;
-        public string versionFilePath;
-        public string appFilePath;
-        public Version version;
+        string domain;
+        string versionFilePath;
+        string appFilePath;
+        Version version;
+        ProgressBarInfo progressbarInfo;
 
         public static ConsoleUpdater Create()
         {
             var sharpDater = new ConsoleUpdater();
+            sharpDater.progressbarInfo = ProgressBarInfo.Default;
             sharpDater.version = Assembly.GetEntryAssembly().GetName().Version;
             return sharpDater;
         }
@@ -48,6 +71,12 @@ namespace ConsoleUpdater
         public ConsoleUpdater WithCustomVersion(string version)
         {
             this.version = new Version(version);
+            return this;
+        }
+
+        public ConsoleUpdater WithProgressBarInfo(ProgressBarInfo progressBarInfo)
+        {
+            this.progressbarInfo = progressBarInfo;
             return this;
         }
 
@@ -97,16 +126,21 @@ namespace ConsoleUpdater
             {
                 bytesRead = await stream.ReadAsync(bytes, 0, size).ConfigureAwait(false);
                 list.AddRange(bytes.Take(bytesRead));
+                float speed = ((float)list.Count / (float)sw.Elapsed.TotalSeconds)/1024f/1024f;
                 var perc = (list.Count / (double)response.ContentLength) * 100;
-                DrawProgress((int)perc);
+                DrawProgress((int)perc, speed);
             } while (bytesRead > 0);
+
+            //Move to next line
+            Console.WriteLine("");
 
             sw.Stop();
             var tmpPath = Path.Combine(Path.GetTempPath(), $"{DateTime.Now.ToFileTime()}");
             if (!Directory.Exists(tmpPath))
                 Directory.CreateDirectory(tmpPath);
 
-            using(ZipArchive zip = new ZipArchive(new MemoryStream(list.ToArray())))
+            Console.WriteLine($"Extracting files...");
+            using (ZipArchive zip = new ZipArchive(new MemoryStream(list.ToArray())))
             {
                 zip.ExtractToDirectory(tmpPath);
             }
@@ -125,30 +159,39 @@ namespace ConsoleUpdater
             Environment.Exit(-1);
         }
 
-        void DrawProgress(int perc)
+        void DrawProgress(int perc, float speed)
         {
+            string extraText = "";
+            if (progressbarInfo.DisplayPercent)
+                extraText += " " + perc.ToString("f0") + "%";
+
+            if (progressbarInfo.DisplaySpeed)
+                extraText += " " + speed.ToString("f2") + "MB/s";
+
+            Console.CursorVisible = false;
             Console.SetCursorPosition(0, Console.CursorTop);
             Console.Write($"[");
-            float width = Console.WindowWidth - 5;
+            float width = Console.WindowWidth - 2 - extraText.Length;
             int p = (int)((perc / 100f) * width);
             for (int j = 0; j < width; j++)
             {
                 if (j >= p)
                 {
-                    Console.ForegroundColor = ConsoleColor.DarkGray;
-                    Console.Write("─");
+                    Console.ForegroundColor = progressbarInfo.IncompleteColor;
+                    Console.Write(progressbarInfo.IncompleteChar);
                     Console.ResetColor();
                 }
                 else
                 {
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.Write("─");
+                    Console.ForegroundColor = progressbarInfo.CompleteColor;
+                    Console.Write(progressbarInfo.CompleteChar);
                     Console.ResetColor();
                 }
             }
-            Console.Write("]");
+            Console.Write("]" + extraText);
 
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ResetColor();
+            Console.CursorVisible = true;
         }
     }
 }

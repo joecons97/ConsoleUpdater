@@ -2,6 +2,7 @@
 using System.IO;
 using System.Reflection;
 using System.Threading;
+using ConsoleUpdater;
 
 namespace Example
 {
@@ -11,9 +12,10 @@ namespace Example
         static void Main(string[] args)
         {
             var updater = ConsoleUpdater.ConsoleUpdater.Create().
-                WithDomain(@"C:\Test\").
+                WithDomain(@"https://sundermead.co.uk/ConsoleUpdater/").
                 WithVersionFile("ver.txt").
-                WithAppFile("net5.0-windows.zip");
+                WithAppFile("net5.0-windows.zip").
+                WithProgressBarInfo(new ProgressBarInfo() { DisplayPercent = true, DisplaySpeed = true, CompleteColor = ConsoleColor.Yellow });
 
             if (updater.CheckForUpdate(out var v))
                 Console.Read();
