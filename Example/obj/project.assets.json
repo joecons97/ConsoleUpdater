@@ -112,14 +112,14 @@
           }
         }
       },
-      "ConsoleUpdater/1.0.0": {
+      "Josephus.ConsoleUpdater/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/ConsoleUpdater.dll": {}
+          "bin/placeholder/Josephus.ConsoleUpdater.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ConsoleUpdater.dll": {}
+          "bin/placeholder/Josephus.ConsoleUpdater.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -242,7 +242,7 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "ConsoleUpdater/1.0.0": {
+    "Josephus.ConsoleUpdater/1.0.0": {
       "type": "project",
       "path": "../Sharp-Dater/ConsoleUpdater.csproj",
       "msbuildProject": "../Sharp-Dater/ConsoleUpdater.csproj"
@@ -251,7 +251,7 @@
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "Autoupdater.NET.Official >= 1.7.4",
-      "ConsoleUpdater >= 1.0.0"
+      "Josephus.ConsoleUpdater >= 1.0.0"
     ]
   },
   "packageFolders": {

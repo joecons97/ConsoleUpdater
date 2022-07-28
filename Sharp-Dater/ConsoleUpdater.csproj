@@ -4,8 +4,15 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <RootNamespace>Sharp_Dater</RootNamespace>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Josephus.ConsoleUpdater</PackageId>
+    <Authors>Josephus</Authors>
+    <Company>Josephus</Company>
+    <PackageProjectUrl>https://github.com/joecons97/ConsoleUpdater</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/joecons97/ConsoleUpdater</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>

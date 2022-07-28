@@ -17,7 +17,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\joeco\\source\\repos\\ConsoleUpdater\\Sharp-Dater\\ConsoleUpdater.csproj",
-      "projectName": "ConsoleUpdater",
+      "projectName": "Josephus.ConsoleUpdater",
       "projectPath": "C:\\Users\\joeco\\source\\repos\\ConsoleUpdater\\Sharp-Dater\\ConsoleUpdater.csproj",
       "packagesPath": "C:\\Users\\joeco\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\joeco\\source\\repos\\ConsoleUpdater\\Sharp-Dater\\obj\\",
