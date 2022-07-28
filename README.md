@@ -9,10 +9,11 @@ Add reference to ConsoleUpdater
 Create ConsoleUpdater object:
 ```cs
 var updater = ConsoleUpdater.Create().
-                WithDomain("http://www.yourserver.com/").
-                WithVersionFile("versiontracker.txt").
-                WithAppFile("yourpackage.zip").
-                WithCustomVersion("1.0.0.0"); //Optional
+    WithDomain("http://www.yourserver.com/").
+    WithVersionFile("versiontracker.txt").
+    WithAppFile("yourpackage.zip").
+    WithProgressBarInfo(new ProgressBarInfo() { DisplayPercent = true, DisplaySpeed = true, CompleteColor = ConsoleColor.Yellow }). //See ProgressBarInfo for all options
+    WithCustomVersion("1.0.0.0");  //Optional
 ```
 
 Version-Tracker required format:
