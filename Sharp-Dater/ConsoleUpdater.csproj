@@ -13,6 +13,8 @@
     <PackageProjectUrl>https://github.com/joecons97/ConsoleUpdater</PackageProjectUrl>
     <RepositoryUrl>https://github.com/joecons97/ConsoleUpdater</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Description>A simple .Net Console App auto updater</Description>
+    <Version>1.1.0.0</Version>
   </PropertyGroup>
 
 </Project>

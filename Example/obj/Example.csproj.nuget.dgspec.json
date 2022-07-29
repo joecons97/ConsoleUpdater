@@ -50,12 +50,6 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "dependencies": {
-            "Autoupdater.NET.Official": {
-              "target": "Package",
-              "version": "[1.7.4, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -76,7 +70,7 @@
       }
     },
     "C:\\Users\\joeco\\source\\repos\\ConsoleUpdater\\Sharp-Dater\\ConsoleUpdater.csproj": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\joeco\\source\\repos\\ConsoleUpdater\\Sharp-Dater\\ConsoleUpdater.csproj",
         "projectName": "Josephus.ConsoleUpdater",

@@ -14,7 +14,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\joeco\\source\\repos\\ConsoleUpdater\\Sharp-Dater\\ConsoleUpdater.csproj",
       "projectName": "Josephus.ConsoleUpdater",
