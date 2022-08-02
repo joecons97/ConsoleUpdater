@@ -1,6 +1,6 @@
 # ConsoleUpdater
 <a href="https://www.nuget.org/packages/Josephus.ConsoleUpdater/1.2.0" alt="Nuget Package">
-        <img src="https://img.shields.io/badge/Nuget-1.2.0-blue" /></a>
+        <img src="https://img.shields.io/badge/Nuget-v1.2.0-blue" /></a>
 
 
 A simple .Net Console App auto updater
